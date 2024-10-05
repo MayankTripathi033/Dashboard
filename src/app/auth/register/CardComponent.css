@@ -1,0 +1,13 @@
+/* CardComponent.css */
+.slide-out {
+  animation: slideOut 1s forwards; /* Slide out animation */
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0); /* Start at the original position */
+  }
+  to {
+    transform: translateX(-71%); /* End off-screen to the left (adjust this value) */
+  }
+}
